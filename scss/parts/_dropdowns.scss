@@ -1,0 +1,34 @@
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+
+}
+
+.dropdown-item {
+    display: block;
+}
+
+.dropdown-menu[x-placement^="top"],
+.dropdown-menu[x-placement^="right"],
+.dropdown-menu[x-placement^="bottom"],
+.dropdown-menu[x-placement^="left"] {
+    right: auto;
+    bottom: auto;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+
+.dropdown-menu {
+    list-style: none;
+    background-clip: padding-box;
+    border: none;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+// font-family: 'Source Sans Pro', sans-serif;
+
+@font-face{
+    font-family: MM-iconfont;
+    font-display: swap;
+    src:url('https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MM-Iconfont.eot');
+    src:url('https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MM-Iconfont.eot?#iefix') format("embedded-opentype"),
+    url('https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MM-Iconfont.woff') format("woff"),
+    url('https://csscdn.redblue.de/msp/patternlibrary/deployable/static/resources/fonts/red/MM-Iconfont.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: "pricemm";
+    font-display: swap;
+    src:url('https://csscdn.redblue.de/MediaBE/static/css/pricemm.eot');
+    src:url('https://csscdn.redblue.de/MediaBE/static/css/pricemm.eot?#iefix') format('embedded-opentype'),
+    url('https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff2') format('woff2'),
+    url('https://csscdn.redblue.de/MediaBE/static/css/newpricem.woff') format('woff'),
+    url('https://csscdn.redblue.de/MediaBE/static/css/newpricem.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "mm-icons";
+    font-display: swap;
+    src: url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot");
+    src: url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaBE/static/css/MMIcons.woff") format("woff")
+}
+
+@font-face{
+    font-family:"mm-text-bold";
+    font-display: swap;
+    src:url('https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot');
+    src:url('https://csscdn.redblue.de/fee/mobile_mrh/fonts/mediamarkt/MMTextWebTT-Bold.eot?#iefix') format('embedded-opentype'),
+    url('https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff2') format("woff2"),
+    url('https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.woff') format("woff"),
+    url('https://csscdn.redblue.de/MediaBE/static/fonts/MMTextWebTT-Bold.ttf') format("truetype")
+}

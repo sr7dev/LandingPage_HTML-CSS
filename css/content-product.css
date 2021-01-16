@@ -8,7 +8,7 @@ body {
   color: #000000;
 }
 .content-section {
-  width: 100%;
+  width: 90%;
   max-width: 1690px;
   margin: 0 auto;
 }
@@ -25,6 +25,7 @@ body {
 
 .content-category-list {
   text-align: center;
+  margin-top: 30px;
 }
 
 .content-category-list select#sorter {
@@ -59,13 +60,15 @@ body {
   display: block;
   padding: 0 10px;
   text-transform: uppercase;
-  height: 60px;
+  height: 65px;
+  overflow: hidden;
 }
 
 .product-description {
   font-size: 16px;
   padding: 0 10px;
-  height: 85px;
+  height: 100px;
+  overflow: hidden;
 }
 
 .product-price span.price {
@@ -82,8 +85,8 @@ body {
 
 .bullet {
   display: block;
-  width: .75rem;
-  height: .75rem;
+  width: 1.2rem;
+  height: 1.2rem;
   margin-top: .0625rem;
   margin-right: 3px;
   border-radius: 50%;
@@ -224,6 +227,7 @@ select#limiter {
 span.limiter-text {
   font-size: 16px;
   padding-top: 5px;
+  padding-left: 5px;
 }
 
 .field.limiter {
@@ -264,4 +268,145 @@ span.limiter-text {
 .lorem p {
   font-size: 16px;
   padding-top: 30px;
+}
+
+.panel {
+  background-color: #293133;
+}
+
+.page-wrapper>.page-bottom {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.newsletter-block.pb-content {
+  max-width: 1690px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+ul.items.pages-items li span {
+  color: #000;
+}
+
+i.fab.fa-facebook-square {
+  color: #006bb4 !important;
+  font-size: 25px;
+}
+
+i.fab.fa-twitter-square {
+  color: #22a0f7 !important;
+  font-size: 25px;
+}
+
+@media (max-width:767px) {
+  .col-desc {
+    text-align: center;
+  }
+  .page-header .header.panel .block.block-search #search_mini_form .actions .action.search:before,
+  .page-header .panel.header .minicart-wrapper .action.showcart:before,
+  .page-header .header.panel .header-top-link .link .burger-class:before,
+  .sections.nav-sections .navigation>ul .level0>.level-top>.ui-icon-carat-1-e:after {
+    display: none;
+  }
+  i.fa.fa-angle-down.mobile-m-down {
+    color: #293133;
+  }
+  i.fa.fa-user.mobile-i-user {
+    color: #293133;
+  }
+  .desktop-v {
+    display: none;
+  }
+  button.action.subscribe.primary {
+    height: 42px;
+  }
+}
+
+@media (max-width:445px) {
+  .field.limiter label.label,
+  span.limiter-text,
+  .control {
+    display: none;
+  }
+  .pages {
+    margin: 0 auto;
+  }
+  .toolbar.toolbar-products {
+    display: block;
+    text-align: center;
+  }
+  div#toolbar-amount {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .recomm-title {
+    font-size: 25px;
+  }
+}
+
+.block-search .action.search:before,
+.minicart-wrapper .action.showcart:before,
+.page-header .switcher .options .action.toggle:after,
+.breadcrumbs .item:not(:last-child):after,
+.it-newsletter-a:before {
+  content: none;
+}
+
+.fa, .far, .fas {
+  color: #FFF;
+  font-size: 20px;
+}
+
+i.fa.fa-angle-down {
+  font-size: 15px;
+  padding-left: 3px;
+}
+
+i.fa.fa-angle-right {
+  color: #7b7c7e;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+i.far.fa-envelope {
+  color: #000;
+  font-size: 80px;
+}
+
+button.action.subscribe.primary {
+  height: 50px;
+}
+
+select.lang-drop-down {
+  background: transparent;
+  border: none;
+}
+
+.sections.nav-sections .navigation .level0 .submenu,
+ul.level1.submenu.ui-menu.ui-widget.ui-widget-content.ui-corner-all.expanded,
+ul.level0.submenu.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+  display: none;
+}
+
+.col-xs-6.col-sm-4.product-item {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.sections.nav-sections .navigation > ul .level0 > .level-top[href*="promotions-destockage"], .sections.nav-sections .navigation > ul .level0 > .level-top[href*="vu-a-la-tv"]{
+  border-color: #e30613;
+  background-color: #e30613;
+}
+
+div#ct-field-3 p {
+  text-align: center;
+}
+
+div#ct-field-3 p img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

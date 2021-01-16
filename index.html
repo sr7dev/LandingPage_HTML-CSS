@@ -3,18 +3,22 @@
 <html lang="fr">
 
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Découvrez notre assortiment de luminaires tendance ! Trafic, le plaisir à prix malin !">
-    <meta name="keywords" content="suspensions, lustres, appliques, spots, ampoules, lampes, Trafic, le plaisir à prix malin, prix imbattables">
-    <meta name="robots" content="INDEX,FOLLOW">
-    <meta name="title" content="Luminaires  | Trafic-eshop">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <title>Luminaires | Trafic-eshop</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"href="css/header-footer.css">
-    <link rel="stylesheet" type="text/css"href="css/content-product.css">
-	
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="description" content="Découvrez notre assortiment de luminaires tendance ! Trafic, le plaisir à prix malin !">
+   <meta name="keywords" content="suspensions, lustres, appliques, spots, ampoules, lampes, Trafic, le plaisir à prix malin, prix imbattables">
+   <meta name="robots" content="INDEX,FOLLOW">
+   <meta name="title" content="Luminaires  | Trafic-eshop">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="format-detection" content="telephone=no">
+   <title>Luminaires | Trafic-eshop</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css"href="css/header-footer.css">
+   <link rel="stylesheet" type="text/css"href="css/content-product.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="js/mobile-menu.js"></script>
+   
   </head>
   <body data-container="body" class="page-with-filter page-products categorypath-maison-decorations-eclairage-intrieur-et-ampoules category-eclairage-intrieur-et-ampoules catalog-category-view page-layout-1column" aria-busy="false">
    <div class="page-wrapper">
@@ -55,7 +59,7 @@
                         </div>
                         <div class="actions">
                            <button type="submit" title="Rechercher" class="action search" aria-label="Search" disabled="">
-                            <span>Rechercher</span>
+                              <i class="fa fa-search"></i>
                            </button>
                         </div>
                         <div id="amasty-xsearch-loader" class="amasty-xsearch-loader amasty-xsearch-hide"></div>
@@ -64,28 +68,28 @@
                </div>
                <div class="header-top-link">
                   <div class="link"><a href="https://www.trafic-eshop.be/storepicker/" class="storepicker-class" target="">Nos magasins</a></div>
-                  <div class="link"><button type="button" class="burger-class">Menu</button></div>
+                  <div class="link"><button type="button" class="burger-class"><i class="fas fa-bars"></i></button></div>
                   <div class="link"><a href="https://www.trafic-eshop.be/catalogue/" target="_blank" class="catalog-class">Catalogue</a></div>
                </div>
                <ul class="header links">    
                 <a href="https://www.trafic-eshop.be/customer/account/login/referer/aHR0cHM6Ly93d3cudHJhZmljLWVzaG9wLmJlL21haXNvbi9kZWNvcmF0aW9ucy9lY2xhaXJhZ2UtaW50cmlldXItZXQtYW1wb3VsZXMuaHRtbA%2C%2C/">
-                  <i class="it-user"><span class="sr-only">Connexion</span></i>
+                  <i class="far fa-user"></i>
                 </a>
                </ul>
                <div class="favorite">
                   <a href="https://www.trafic-eshop.be/wishlist/">
-                    <i class="it-fav"><span class="sr-only">Favoris</span></i>
+                    <i class="far fa-heart"></i>
                   </a>
                </div>
                <div data-block="minicart" class="minicart-wrapper">
                   <a class="action showcart" href="https://www.trafic-eshop.be/checkout/cart/" data-bind="scope: 'minicart_content'">
-                     <span class="text">Panier</span>
+                     <i class="fas fa-shopping-cart"></i>
                      <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
                         <span class="counter-number">0</span>
                      </span>
                   </a>
-                  <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" tabindex="-1" role="dialog" aria-describedby="ui-id-1" style="display: none;">
-                     <div class="block block-minicart ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-1" style="display: block;">
+                  <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" tabindex="-1" role="dialog" aria-describedby="ui-id-1">
+                     <div class="block block-minicart ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-1">
                         <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
                           <div class="block-title">
                             <strong>
@@ -110,20 +114,10 @@
                </div>
                <div class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
                   <strong class="label switcher-label"><span>Langue</span></strong>
-                  <div class="actions dropdown options switcher-options">
-                    <div class="action toggle switcher-trigger" id="switcher-language-trigger" data-toggle="dropdown" data-trigger-keypress-button="true" aria-haspopup="true" aria-expanded="false" role="button" tabindex="0">
-                      <strong class="view-trafic_be_fr">
-                        <span>FR</span>
-                      </strong>
-                    </div>
-                    <ul class="dropdown switcher-dropdown" data-target="dropdown" aria-hidden="true">
-                      <li class="view-trafic_be_nl switcher-option">
-                        <a href="https://www.trafic-eshop.be/stores/store/redirect/___store/trafic_be_nl/___from_store/trafic_be_fr/uenc/aHR0cHM6Ly93d3cudHJhZmljLWVzaG9wLmJlL21haXNvbi9kZWNvcmF0aW9ucy9lY2xhaXJhZ2UtaW50cmlldXItZXQtYW1wb3VsZXMuaHRtbD9fX19zdG9yZT10cmFmaWNfYmVfbmw%2C/">
-                          NL
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                  <select id="sorter" data-role="sorter" class="sorter-options lang-drop-down">
+                     <option value="position" selected="selected">FR</option>
+                     <option value="name">NL</option>
+                  </select>
                </div>
             </div>
          </div>
@@ -139,11 +133,11 @@
                <nav class="navigation" data-action="navigation">
                   <ul id="ui-id-2" class="ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" tabindex="0" aria-activedescendant="ui-id-7">
                      <li class="level0 nav-1 category-item first level-top parent ui-menu-item" role="presentation">
-                        <a href="https://www.trafic-eshop.be/jardin.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-3" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Jardin</span></a>
-                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" style="display: none; top: 57px; left: 0.5px;" aria-hidden="true">
+                        <a href="https://www.trafic-eshop.be/jardin.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-3" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"><i class="fa fa-angle-down mobile-m-down" aria-hidden="true"></i></span><span>Jardin</span></a>
+                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" aria-hidden="true">
                            <li class="level1 nav-1-1 category-item first parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/abris-de-jardin.html" aria-haspopup="true" id="ui-id-11" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>ABRIS DE JARDIN</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-1-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/abris-de-jardin/abris-et-rangements-bois.html" id="ui-id-18" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Abris et rangements bois</span></a></li>
                                  <li class="level2 nav-1-1-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/abris-de-jardin/abris-et-rangements-en-mtal-ou-rsine.html" id="ui-id-19" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Abris et rangements en métal ou résine</span></a></li>
                                  <li class="level2 nav-1-1-3 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/abris-de-jardin/garages-et-carports.html" id="ui-id-20" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Garages et carports</span></a></li>
@@ -151,7 +145,7 @@
                            </li>
                            <li class="level1 nav-1-2 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/detente.html" aria-haspopup="true" id="ui-id-12" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>DETENTE</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-2-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/detente/jeux-extrieur.html" id="ui-id-21" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Jeux extérieur</span></a></li>
                                  <li class="level2 nav-1-2-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/detente/barbecues.html" id="ui-id-22" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Barbecues</span></a></li>
                                  <li class="level2 nav-1-2-3 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/detente/chauffage-de-terrasse.html" id="ui-id-23" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Chauffage de terrasse</span></a></li>
@@ -159,7 +153,7 @@
                            </li>
                            <li class="level1 nav-1-3 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/meubles-de-jardin.html" aria-haspopup="true" id="ui-id-13" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>MEUBLES DE JARDIN</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-3-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/meubles-de-jardin/ensembles-de-jardin.html" id="ui-id-24" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Ensembles de jardin</span></a></li>
                                  <li class="level2 nav-1-3-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/meubles-de-jardin/tables-de-jardin.html" id="ui-id-25" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Tables de jardin</span></a></li>
                                  <li class="level2 nav-1-3-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/meubles-de-jardin/chaises-de-jardin.html" id="ui-id-26" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Chaises de jardin</span></a></li>
@@ -171,7 +165,7 @@
                            </li>
                            <li class="level1 nav-1-4 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/piscines-et-spas.html" aria-haspopup="true" id="ui-id-14" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>PISCINES ET SPAS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-4-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/piscines-et-spas/jeux-de-piscine.html" id="ui-id-31" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Jeux de piscine</span></a></li>
                                  <li class="level2 nav-1-4-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/piscines-et-spas/piscines.html" id="ui-id-32" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Piscines</span></a></li>
                                  <li class="level2 nav-1-4-3 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/piscines-et-spas/spas.html" id="ui-id-33" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Spas</span></a></li>
@@ -179,7 +173,7 @@
                            </li>
                            <li class="level1 nav-1-5 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/decoration.html" aria-haspopup="true" id="ui-id-15" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>DECORATION</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-5-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/decoration/dcoration-extrieure.html" id="ui-id-34" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Décoration extérieure</span></a></li>
                                  <li class="level2 nav-1-5-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/decoration/eclairage-extrieur.html" id="ui-id-35" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Eclairage extérieur</span></a></li>
                                  <li class="level2 nav-1-5-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/decoration/poteries.html" id="ui-id-36" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Poteries</span></a></li>
@@ -189,7 +183,7 @@
                            </li>
                            <li class="level1 nav-1-6 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/animalerie.html" aria-haspopup="true" id="ui-id-16" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Animalerie</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-6-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/animalerie/chiens.html" id="ui-id-39" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Chiens</span></a></li>
                                  <li class="level2 nav-1-6-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/animalerie/chats.html" id="ui-id-40" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Chats</span></a></li>
                                  <li class="level2 nav-1-6-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/animalerie/rongeurs.html" id="ui-id-41" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Rongeurs</span></a></li>
@@ -200,7 +194,7 @@
                            </li>
                            <li class="level1 nav-1-7 category-item last parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/jardin/jardinage.html" aria-haspopup="true" id="ui-id-17" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>JARDINAGE</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-1-7-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/jardinage/arrosage-et-nettoyage.html" id="ui-id-45" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Arrosage et récupération des eaux de pluie</span></a></li>
                                  <li class="level2 nav-1-7-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/jardinage/potager.html" id="ui-id-46" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Potager</span></a></li>
                                  <li class="level2 nav-1-7-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/jardin/jardinage/terreaux-et-amendements.html" id="ui-id-47" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Terreaux et amendements</span></a></li>
@@ -212,11 +206,11 @@
                         </ul>
                      </li>
                      <li class="level0 nav-2 category-item level-top parent ui-menu-item has-active" role="presentation">
-                        <a href="https://www.trafic-eshop.be/maison.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-4" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Maison</span></a>
-                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" style="display: none; top: 57px; left: 126.5px;" aria-hidden="true">
+                        <a href="https://www.trafic-eshop.be/maison.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-4" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"><i class="fa fa-angle-down mobile-m-down" aria-hidden="true"></i></span><span>Maison</span></a>
+                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" aria-hidden="true">
                            <li class="level1 nav-2-1 category-item first parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/mobiliers.html" aria-haspopup="true" id="ui-id-51" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>MOBILIERS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-1-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/mobiliers/salon.html" id="ui-id-58" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Salon</span></a></li>
                                  <li class="level2 nav-2-1-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/mobiliers/salle-a-manger.html" id="ui-id-59" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Salle à manger</span></a></li>
                                  <li class="level2 nav-2-1-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/mobiliers/chambre.html" id="ui-id-60" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Chambre</span></a></li>
@@ -229,7 +223,7 @@
                            </li>
                            <li class="level1 nav-2-2 category-item parent ui-menu-item has-active" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/decorations.html" aria-haspopup="true" id="ui-id-52" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>DECORATIONS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-2-1 category-item first ui-menu-item active" role="presentation"><a href="https://www.trafic-eshop.be/maison/decorations/eclairage-intrieur-et-ampoules.html" id="ui-id-66" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Luminaires</span></a></li>
                                  <li class="level2 nav-2-2-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/decorations/tapis.html" id="ui-id-67" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Tapis</span></a></li>
                                  <li class="level2 nav-2-2-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/decorations/bougies-et-encens.html" id="ui-id-68" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Bougies et encens</span></a></li>
@@ -238,7 +232,7 @@
                            </li>
                            <li class="level1 nav-2-3 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/linges-de-maison.html" aria-haspopup="true" id="ui-id-53" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>LINGES DE MAISON</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-3-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/linges-de-maison/rideaux-stores-et-voilages.html" id="ui-id-70" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Rideaux, stores et voilages</span></a></li>
                                  <li class="level2 nav-2-3-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/linges-de-maison/coussins-et-housses-de-coussin.html" id="ui-id-71" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Coussins et housses de coussin</span></a></li>
                                  <li class="level2 nav-2-3-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/linges-de-maison/plaids-et-tissus-d-ameublement.html" id="ui-id-72" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Plaids et tissus d'ameublement</span></a></li>
@@ -248,7 +242,7 @@
                            </li>
                            <li class="level1 nav-2-4 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/rangements.html" aria-haspopup="true" id="ui-id-54" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>RANGEMENTS ET ENTRETIEN</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-4-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/rangements/bricolage.html" id="ui-id-75" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Bricolage</span></a></li>
                                  <li class="level2 nav-2-4-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/rangements/rangements.html" id="ui-id-76" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Rangements</span></a></li>
                                  <li class="level2 nav-2-4-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/rangements/entretien-du-linge.html" id="ui-id-77" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Entretien du linge</span></a></li>
@@ -259,7 +253,7 @@
                            </li>
                            <li class="level1 nav-2-5 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/electomenagers.html" aria-haspopup="true" id="ui-id-55" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>ELECTROMENAGERS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-5-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/electomenagers/petit-electromenager-cuisine.html" id="ui-id-81" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Petit électroménager cuisine</span></a></li>
                                  <li class="level2 nav-2-5-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/electomenagers/petit-electromenager-entretien.html" id="ui-id-82" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Petit électroménager entretien</span></a></li>
                                  <li class="level2 nav-2-5-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/electomenagers/gros-lectromnager.html" id="ui-id-83" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Gros électroménager</span></a></li>
@@ -268,7 +262,7 @@
                            </li>
                            <li class="level1 nav-2-6 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/accessoires-menagers.html" aria-haspopup="true" id="ui-id-56" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>ACCESSOIRES MENAGERS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-6-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/accessoires-menagers/accessoires-de-cuisine.html" id="ui-id-85" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Accessoires de cuisine</span></a></li>
                                  <li class="level2 nav-2-6-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/accessoires-menagers/art-de-la-table.html" id="ui-id-86" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Art de la table</span></a></li>
                                  <li class="level2 nav-2-6-3 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/accessoires-menagers/droguerie.html" id="ui-id-87" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Droguerie</span></a></li>
@@ -276,7 +270,7 @@
                            </li>
                            <li class="level1 nav-2-7 category-item last parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/maison/chauffage.html" aria-haspopup="true" id="ui-id-57" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>CHAUFFAGE</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-2-7-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/chauffage/poles.html" id="ui-id-88" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Poêles et chauffages</span></a></li>
                                  <li class="level2 nav-2-7-2 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/maison/chauffage/combustibles-chauffage.html" id="ui-id-89" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Combustibles chauffage</span></a></li>
                               </ul>
@@ -284,11 +278,11 @@
                         </ul>
                      </li>
                      <li class="level0 nav-3 category-item level-top parent ui-menu-item" role="presentation">
-                        <a href="https://www.trafic-eshop.be/loisir.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-5" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Loisir</span></a>
-                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" style="display: none; top: 57px; left: 262.5px;" aria-hidden="true">
+                        <a href="https://www.trafic-eshop.be/loisir.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-5" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"><i class="fa fa-angle-down mobile-m-down" aria-hidden="true"></i></span><span>Loisir</span></a>
+                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" aria-hidden="true">
                            <li class="level1 nav-3-1 category-item first parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/loisir/jouets.html" aria-haspopup="true" id="ui-id-90" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>JOUETS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-3-1-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/jouets/jeux-premier-ge.html" id="ui-id-94" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Jouets pour les tout petits</span></a></li>
                                  <li class="level2 nav-3-1-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/jouets/poupes-et-peluches.html" id="ui-id-95" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Poupées</span></a></li>
                                  <li class="level2 nav-3-1-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/jouets/peluche.html" id="ui-id-96" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Peluches</span></a></li>
@@ -305,7 +299,7 @@
                            </li>
                            <li class="level1 nav-3-2 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/loisir/sports-et-loisirs.html" aria-haspopup="true" id="ui-id-91" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>SPORTS ET LOISIRS</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-3-2-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/sports-et-loisirs/cycles.html" id="ui-id-106" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Cycles</span></a></li>
                                  <li class="level2 nav-3-2-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/sports-et-loisirs/sports.html" id="ui-id-107" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Sports</span></a></li>
                                  <li class="level2 nav-3-2-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/sports-et-loisirs/camping.html" id="ui-id-108" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Camping</span></a></li>
@@ -316,7 +310,7 @@
                            </li>
                            <li class="level1 nav-3-3 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/loisir/multimedias-et-accessoires.html" aria-haspopup="true" id="ui-id-92" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>CULTURE ET MULTIMEDIA</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-3-3-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/multimedias-et-accessoires/multimedia.html" id="ui-id-112" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Multimédia</span></a></li>
                                  <li class="level2 nav-3-3-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/multimedias-et-accessoires/audio-hi-fi-et-tv.html" id="ui-id-113" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Audio, Hi-fi et TV</span></a></li>
                                  <li class="level2 nav-3-3-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/multimedias-et-accessoires/imprimantes-et-accessoires.html" id="ui-id-114" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Imprimantes et accessoires</span></a></li>
@@ -327,7 +321,7 @@
                            </li>
                            <li class="level1 nav-3-4 category-item last parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/loisir/festivites.html" aria-haspopup="true" id="ui-id-93" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>FESTIVITES</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-3-4-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/festivites/destockage-noel.html" id="ui-id-118" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Déstockage Noël</span></a></li>
                                  <li class="level2 nav-3-4-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/festivites/decorations.html" id="ui-id-119" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Décorations de maison Noël</span></a></li>
                                  <li class="level2 nav-3-4-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/loisir/festivites/illuminations-de-noel.html" id="ui-id-120" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Illuminations de Noël</span></a></li>
@@ -342,11 +336,11 @@
                         </ul>
                      </li>
                      <li class="level0 nav-4 category-item level-top parent ui-menu-item" role="presentation">
-                        <a href="https://www.trafic-eshop.be/mode-et-beaute.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-6" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>Mode et beaute</span></a>
-                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false" style="display: none; top: 57px; left: 378.5px;" aria-hidden="true">
+                        <a href="https://www.trafic-eshop.be/mode-et-beaute.html" class="level-top ui-corner-all" aria-haspopup="true" id="ui-id-6" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"><i class="fa fa-angle-down mobile-m-down" aria-hidden="true"></i></span><span>Mode et beaute</span></a>
+                        <ul class="level0 submenu ui-menu ui-widget ui-widget-content ui-corner-all" role="menu" aria-expanded="false"  aria-hidden="true">
                            <li class="level1 nav-4-1 category-item first parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/mode-et-beaute/soins-du-corps.html" aria-haspopup="true" id="ui-id-127" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>SOIN DU CORPS ET DETENTE</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-expanded="false" style="display: none; top: 268px; left: 0.5px;" aria-hidden="true">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-expanded="false" aria-hidden="true">
                                  <li class="level2 nav-4-1-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/soins-du-corps/soin-du-corps.html" id="ui-id-131" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Soin du corps</span></a></li>
                                  <li class="level2 nav-4-1-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/soins-du-corps/parfumerie.html" id="ui-id-132" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Parfumerie</span></a></li>
                                  <li class="level2 nav-4-1-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/soins-du-corps/hygine.html" id="ui-id-133" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Hygiène</span></a></li>
@@ -358,7 +352,7 @@
                            </li>
                            <li class="level1 nav-4-2 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/mode-et-beaute/textile-et-habillement.html" aria-haspopup="true" id="ui-id-128" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>TEXTILE ET HABILLEMENT</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-expanded="false" style="display: none; top: 196px; left: 0.21875px;" aria-hidden="true">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-expanded="false" aria-hidden="true">
                                  <li class="level2 nav-4-2-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/textile-et-habillement/lingerie-et-base-dames-et-filles.html" id="ui-id-138" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Lingerie et base dames et Filles</span></a></li>
                                  <li class="level2 nav-4-2-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/textile-et-habillement/lingerie-et-base-hommes-et-garons.html" id="ui-id-139" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Lingerie et base hommes et garçons</span></a></li>
                                  <li class="level2 nav-4-2-3 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/textile-et-habillement/textile-dames-et-filles.html" id="ui-id-140" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Textile dames et filles</span></a></li>
@@ -368,7 +362,7 @@
                            </li>
                            <li class="level1 nav-4-3 category-item parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/mode-et-beaute/accessoires.html" aria-haspopup="true" id="ui-id-129" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>ACCESSOIRES</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-4-3-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/accessoires/bagagerie.html" id="ui-id-143" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Bagagerie</span></a></li>
                                  <li class="level2 nav-4-3-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/accessoires/maroquinerie.html" id="ui-id-144" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Maroquinerie</span></a></li>
                                  <li class="level2 nav-4-3-3 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/accessoires/bijoux-et-montres.html" id="ui-id-145" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Bijoux et montres</span></a></li>
@@ -376,7 +370,7 @@
                            </li>
                            <li class="level1 nav-4-4 category-item last parent ui-menu-item" role="presentation">
                               <a href="https://www.trafic-eshop.be/mode-et-beaute/puericulture.html" aria-haspopup="true" id="ui-id-130" class="ui-corner-all" tabindex="-1" role="menuitem"><span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span><span>PUERICULTURE</span></a>
-                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false" style="display: none;">
+                              <ul class="level1 submenu ui-menu ui-widget ui-widget-content ui-corner-all expanded" role="menu" aria-hidden="true" aria-expanded="false">
                                  <li class="level2 nav-4-4-1 category-item first ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/puericulture/petite-puriculture.html" id="ui-id-146" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Petite puériculture</span></a></li>
                                  <li class="level2 nav-4-4-2 category-item ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/puericulture/grosse-puriculture.html" id="ui-id-147" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Grosse puériculture</span></a></li>
                                  <li class="level2 nav-4-4-3 category-item last ui-menu-item" role="presentation"><a href="https://www.trafic-eshop.be/mode-et-beaute/puericulture/mobilier-puriculture.html" id="ui-id-148" class="ui-corner-all" tabindex="-1" role="menuitem"><span>Mobilier puériculture</span></a></li>
@@ -394,18 +388,18 @@
             <div class="section-item-title nav-sections-item-title" data-role="collapsible" role="tab" data-collapsible="true" aria-controls="store.links" aria-selected="false" aria-expanded="false" tabindex="0">
                <a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">Compte</a>
             </div>
-            <div class="section-item-content nav-sections-item-content" id="store.links" data-role="content" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="section-item-content nav-sections-item-content" id="store.links" data-role="content" role="tabpanel" aria-hidden="true">
                <!-- Account links -->
                <ul class="header links">    
                 <a href="https://www.trafic-eshop.be/customer/account/login/referer/aHR0cHM6Ly93d3cudHJhZmljLWVzaG9wLmJlL21haXNvbi9kZWNvcmF0aW9ucy9lY2xhaXJhZ2UtaW50cmlldXItZXQtYW1wb3VsZXMuaHRtbA%2C%2C/">
-                  <i class="it-user"><span class="sr-only">Connexion</span> </i>
+                  <i class="fa fa-user mobile-i-user">Connexion</i>
                 </a>
                </ul>
             </div>
             <div class="section-item-title nav-sections-item-title" data-role="collapsible" role="tab" data-collapsible="true" aria-controls="store.settings" aria-selected="false" aria-expanded="false" tabindex="0">
                <a class="nav-sections-item-switch" data-toggle="switch" href="#store.settings">Paramètres</a>
             </div>
-            <div class="section-item-content nav-sections-item-content" id="store.settings" data-role="content" role="tabpanel" aria-hidden="true" style="display: none;">
+            <div class="section-item-content nav-sections-item-content" id="store.settings" data-role="content" role="tabpanel" aria-hidden="true">
                <div class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language-nav">
                   <strong class="label switcher-label"><span>Langue</span></strong>
                   <div class="actions dropdown options switcher-options">
@@ -429,13 +423,13 @@
       <div class="breadcrumbs">
          <ul class="items">
             <li class="item home">
-               <a href="https://www.trafic-eshop.be/" title="Aller à la page d’accueil">Accueil</a>
+               <a href="https://www.trafic-eshop.be/" title="Aller à la page d’accueil">Accueil<i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </li>
             <li class="item category4">
-               <a href="https://www.trafic-eshop.be/maison.html" title="">Maison</a>
+               <a href="https://www.trafic-eshop.be/maison.html" title="">Maison<i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </li>
             <li class="item category136">
-               <a href="https://www.trafic-eshop.be/maison/decorations.html" title="">DECORATIONS</a>
+               <a href="https://www.trafic-eshop.be/maison/decorations.html" title="">DECORATIONS<i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </li>
             <li class="item category54">
                <strong>Luminaires</strong>
@@ -466,7 +460,7 @@
         </div>
         <div class="product-container">
           <div class="row">
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931688.jpg" alt />
                 <div class="product-title">barbecue a charbon largo green</div>
@@ -476,7 +470,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931716.jpg" alt />
                 <div class="product-title">barbecue au charbon de bois spherique noir</div>
@@ -499,7 +493,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item desktop-v">
               <div class="product-item-container">
                 <img class="product-image" src="img/931692.jpg" alt />
                 <div class="product-title">famille et barbecue estival</div>
@@ -511,7 +505,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931688.jpg" alt />
                 <div class="product-title">barbecue a charbon largo green</div>
@@ -521,7 +515,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931716.jpg" alt />
                 <div class="product-title">barbecue au charbon de bois spherique noir</div>
@@ -544,7 +538,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item desktop-v">
               <div class="product-item-container">
                 <img class="product-image" src="img/931692.jpg" alt />
                 <div class="product-title">famille et barbecue estival</div>
@@ -556,7 +550,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931688.jpg" alt />
                 <div class="product-title">barbecue a charbon largo green</div>
@@ -566,7 +560,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931716.jpg" alt />
                 <div class="product-title">barbecue au charbon de bois spherique noir</div>
@@ -589,7 +583,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item desktop-v">
               <div class="product-item-container">
                 <img class="product-image" src="img/931692.jpg" alt />
                 <div class="product-title">famille et barbecue estival</div>
@@ -601,7 +595,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931688.jpg" alt />
                 <div class="product-title">barbecue a charbon largo green</div>
@@ -611,7 +605,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item">
               <div class="product-item-container">
                 <img class="product-image" src="img/931716.jpg" alt />
                 <div class="product-title">barbecue au charbon de bois spherique noir</div>
@@ -634,7 +628,7 @@
                 <button type="submit" title="Acheter" class="product-button action primary"><span>Voir Detail</span></button>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-4 product-item">
+            <div class="col-xs-6 col-sm-4 product-item desktop-v">
               <div class="product-item-container">
                 <img class="product-image" src="img/931692.jpg" alt />
                 <div class="product-title">famille et barbecue estival</div>
@@ -676,7 +670,7 @@
               </li>
               <li class="item pages-item-next">
                 <a class="action  next" href="https://www.trafic-eshop.be/maison/decorations/eclairage-intrieur-et-ampoules.html?p=2" title="Suivant">
-                  <span>Suivant</span>
+                  <span>></span>
                 </a>
               </li>
             </ul>
@@ -722,16 +716,15 @@
         </div>
       </div>
       <div class="page-bottom">
-         <div class="pdw-fullwidth promotion-banner" style="margin-left: -126.5px; margin-right: -126.5px;">
+         <div class="pdw-fullwidth promotion-banner">
             <a href="/maison/chauffage/poles.html">
-            <img src="img/Banner E-Shop Chauffage_1.jpg" alt="Banner Chauffage" height="400" width="1973">
+            <img src="img/Banner E-Shop Chauffage_1.jpg" alt="Banner Chauffage">
             </a>
          </div>
          <div class="newsletter-block pb-content">
             <div class="block a widget contenttype-listing contents-grid grid">
                <div class="ico-en">
-                  <i class="it-newsletter-a">
-                  </i>
+                 <i class="far fa-envelope"></i>
                </div>
                <div class="contents-items widget-content-grid">
                   <div class="content-item">
@@ -741,7 +734,6 @@
                      </div>
                   </div>
                </div>
-               <div style="clear: both"></div>
             </div>
             <div class="block b newsletter">
                <div class="block newsletter">
@@ -760,7 +752,6 @@
                            </button>
                         </div>
                         <div class="field-recaptcha" id="msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef-container" data-bind="scope:'msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef'">
-                           <!-- ko template: getTemplate() --><!-- /ko -->
                         </div>
                      </form>
                      <p>Vous pouvez vous désabonner à tout moment en accédant à votre compte. Pour plus d'informations, consulter notre politique de "Vie privée".</p>
@@ -772,10 +763,10 @@
                   <div class="content-item">
                      <div class="ct-field ct-field-area " id="ct-field-3">
                         <a href="https://www.facebook.com/MagasinsTrafic" target="_blank">
-                        <i class="it-fb-blue"><span class="sr-only">Facebook</span><span class="path1"></span><span class="path2"></span> </i>
+                        <i class="fab fa-facebook-square"></i>
                         </a>
                         <a href="https://twitter.com/MagasinsTrafic" target="_blank">
-                        <i class="it-twitter-blue"><span class="sr-only">Twitter</span> <span class="path1"></span><span class="path2"></span> </i>
+                        <i class="fab fa-twitter-square"></i>
                         </a>
                      </div>
                   </div>
@@ -839,7 +830,6 @@
                         </div>
                      </div>
                   </div>
-                  <div style="clear: both"></div>
                </div>
             </div>
          </div>
@@ -855,13 +845,7 @@
                      </div>
                      <div class="content-item">
                         <div class="ct-field ct-field-area " id="ct-field-3">
-                           <p style="text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.trafic-eshop.be/media/B2C_bg.png" alt="" width="74">Design: bbs.agency<br>Intégration et développement: <a href="https://www.produweb.be/">Produweb</a>&nbsp;<a href="https://www.produweb.be/"><img src="https://www.trafic-eshop.be/media/picto-produweb.png" alt="" width="32" height="14"></a></p>
-                           <style>
-                              .sections.nav-sections .navigation > ul .level0 > .level-top[href*="promotions-destockage"], .sections.nav-sections .navigation > ul .level0 > .level-top[href*="vu-a-la-tv"]{
-                                border-color: #e30613;
-                                background-color: #e30613;
-                              }
-                           </style>
+                           <p><img src="img/B2C_bg.png" alt="" width="74">Design: bbs.agency<br>Intégration et développement: <a href="https://www.produweb.be/">Produweb</a>&nbsp;<a href="https://www.produweb.be/"><img src="https://www.trafic-eshop.be/media/picto-produweb.png" alt="" width="32" height="14"></a></p>
                         </div>
                      </div>
                      <div class="content-item">
@@ -870,7 +854,6 @@
                         </div>
                      </div>
                   </div>
-                  <div style="clear: both"></div>
                </div>
             </div>
          </div>

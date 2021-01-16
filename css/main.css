@@ -1,31 +1,31 @@
-/* @font-face {
+ @font-face {
 	font-family: 'Open Sans';
-	src: url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/light/opensans-300.woff2') format('woff2'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/light/opensans-300.woff') format('woff');
+	src: url('../font/OpenSans-Light.ttf') format('ttf');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/regular/opensans-400.woff2') format('woff2'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/regular/opensans-400.woff') format('woff');
+	src: url('../fonts/OpenSans-Semibold.ttf') format('ttf');
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/semibold/opensans-600.woff2') format('woff2'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/semibold/opensans-600.woff') format('woff');
+	src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/bold/opensans-700.woff2') format('woff2'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/opensans/bold/opensans-700.woff') format('woff');
+	src: url('../fonts/OpenSans-ExtraBold.ttf') format('ttf');
 	font-weight: 700;
 	font-style: normal;
 }
-
+/*
 @font-face {
 	font-family: 'luma-icons';
 	src: url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/Luma-Icons.woff2') format('woff2'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/Luma-Icons.woff') format('woff');
@@ -39,8 +39,8 @@
 	src: url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/Trafic.eot?bentr9#iefix') format('embedded-opentype'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/Trafic.ttf?bentr9') format('truetype'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/Trafic.woff?bentr9') format('woff'), url('https://www.trafic-eshop.be/static/version1609854514/frontend/PDW/trafic/fr_BE/fonts/Trafic.svg?bentr9#Trafic') format('svg');
 	font-weight: normal;
 	font-style: normal;
-} */
-
+}
+*/
 body {
   color: #777777;
   font-family: 'Open sans', sans-serif;
